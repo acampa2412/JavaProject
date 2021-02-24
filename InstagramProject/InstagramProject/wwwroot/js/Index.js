@@ -82,7 +82,10 @@ year.innerHTML = "2021";
 
 div.appendChild(year);
 
-div.appendChild(span);
+var span2 = document.createElement("span");
+span2.innerHTML = "My Gram";
+
+div.appendChild(span2);
 
 var aNumber = 2;
 var aString = "We learned about strings";
@@ -97,3 +100,4 @@ function MultiplyNumbers(x, y) {
     console.log(results);
 }
 MultiplyNumbers(4, 48);
+
