@@ -92,3 +92,8 @@ console.log(aNumber);
 console.log(aString);
 console.log(aBoolean);
 
+function MultiplyNumbers(x, y) {
+    var results = x * y;
+    console.log(results);
+}
+MultiplyNumbers(4, 48);
