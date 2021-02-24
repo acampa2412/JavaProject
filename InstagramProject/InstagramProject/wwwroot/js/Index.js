@@ -101,3 +101,8 @@ function MultiplyNumbers(x, y) {
 }
 MultiplyNumbers(4, 48);
 
+var myString = "     This is my string to be cut.         ";
+var myString2 = myString.trim();
+var cut = myString2.substring(0, 4);
+
+console.log(cut);
