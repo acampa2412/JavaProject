@@ -6,14 +6,14 @@ var div = document.getElementById("Container");
 div.appendChild(span);
 
 var loginButton = document.createElement("button");
-loginButtion.innerHTML = "Log In";
+loginButton.innerHTML = "Log In";
 
 div.appendChild(loginButton);
 
 var signUpButton = document.createElement("button");
-signUpButton.innerHTML = "Sign Up");
+signUpButton.innerHTML = "Sign Up";
 
-div.appenChild(signUpButton);
+div.appendChild(signUpButton);
 
 var lineBreak = document.createElement("br");
 
@@ -37,7 +37,7 @@ div.appendChild(image3);
 var image4 = document.createElement("span");
 image4.innerHTML = "Image 4";
 
-div.appendChild(image1Span);
+div.appendChild(image4);
 
 var image5 = document.createElement("span");
 image5.innerHTML = "Image 5";
@@ -83,4 +83,12 @@ year.innerHTML = "2021";
 div.appendChild(year);
 
 div.appendChild(span);
+
+var aNumber = 2;
+var aString = "We learned about strings";
+var aBoolean = true;
+
+console.log(aNumber);
+console.log(aString);
+console.log(aBoolean);
 
