@@ -1,10 +1,14 @@
 ﻿"use strict";
-var date
 
-var date = new Date(2028, 2, 28);
+var myBirthday = new Date(1993, 2, 28);
+var myGirlfriendBirthday = new Date(1995, 5, 26);
 
-var format = (date.getMonth() + 1).toString().padStart(2, "0") + "/"
-    + date.getDate() + "/";
-
-console.log(date);
-document.write(date.toLocaleString("zh-HK"))
+if (myBirthday > myGirlfriendBirthday) {
+    document.write("My birthday is greater than her birthday.");
+}
+else if (myBirthday == myGirlfriendBirthday) {
+    document.write("We were born the same day.")
+}
+else {
+    document.write("My girlfriend's birthday is greater.");
+}
